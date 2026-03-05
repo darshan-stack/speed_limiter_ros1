@@ -1,0 +1,10 @@
+speed_zone_limiter:
+  zone:
+    name: loading_bay
+    max_speed: 0.10  # m/s
+    polygon:         # map-frame coordinates (metres)
+      - [1.2, 0.5]
+      - [3.4, 0.5]
+      - [3.4, 2.1]
+      - [1.2, 2.1]
+
